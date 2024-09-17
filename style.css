@@ -1,0 +1,78 @@
+/* General Styles */
+
+.imgDPCL {
+    width: 200px;
+    height: auto;
+}
+
+body {
+    font-family: "Heebo", sans-serif;
+    background-color: #ebccee;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(176, 129, 219);
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.Cont {
+    
+    display: flex;
+    flex-direction: row; /* Alinea los elementos en una fila */
+    text-align: center;
+    align-items: flex-start; /* Alinea los elementos al principio del contenedor */
+    justify-content: center; /* Alinea los elementos a la izquierda */
+    padding: 10px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.Titulo {
+    
+    font-weight: bold;
+    margin-top: 60px;
+    text-align: center;
+    width: 600px;
+    font-size: 24px;
+}
+
+.Text {
+    
+    width: 600px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.imagen1 {
+    margin-left: 20px;
+    display: flex; /* Usa flex para controlar la alineación */
+    align-items: flex-start; /* Alinea la imagen con el texto */
+}
+
+#link {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;     /* Centrar verticalmente */
+    margin-top: 50px;
+    width: 100%; /* Asegúrate de que ocupe todo el ancho del contenedor */
+}
